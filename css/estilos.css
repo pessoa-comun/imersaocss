@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background-image: url("https://s.dicio.com.br/generico.png");
+    background-size: auto 100vh;
+    height: 100vh
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .menu {
+    background-color: brown;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  /*
+  justify-content só funciona com o display
+  */
+  
+  .menu li {
+    list-style: none;
+  }
+  /*
+  class --> todos com a class
+  Id    --> apenas o unico com o Id [bugs com vários Ids]
+  */
+  .site-subtitle,
+  .site-title {
+    color: blacksmoke;
+    text-align: center;
+  }
+  /*
+  Ordem alfabetica nas propriedades
+  Com a vírgula eu compartilho propriedades com mais de um seletor [.site-title e .site-subtitle]
+  */
+  
+  .site-subtitle {
+    font-style: italic; 
+    font-family: italic;
+  }
+  
+  
+  
+  
+  /* Aula inicial :D */
